@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>CashChange</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Cash Register Manager</h1>
+        <p>Enter the bill amount and cash given by the customer and know minimum number of notes/dollers to return.</p>
+
+        <p class="input-bill">Bill Amount:</p>
+        <input type="number" name="billamount" id="bill"/><br>
+        <button onclick="enter()" id="enter-btn" disabled>Enter</button>
+
+        <div class="section2">
+            <p class="input-given">Cash Given:</p>
+            <input type="number" name="cashgiven" id="payment"/><br>
+            <button onclick="check()" id="check-btn" disabled>Check</button>
+        </div>
+
+        <div class="section3">
+            <p class="output-title">Amount to return:</p>
+            <table class="return-table">
+                <tr>
+                    <th>No of Notes</th>
+                    <td class="two-thousand"></td>
+                    <td class="five-hundred"></td>
+                    <td class="hundred"></td>
+                    <td class="fifty"></td>
+                    <td class="ten"></td>
+                    <td class="five"></td>
+                    <td class="one"></td>
+                </tr>
+                <tr>
+                    <th>Notes</th>
+                    <td>2000</td>
+                    <td>500</td>
+                    <td>100</td>
+                    <td>50</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td>1</td>
+                </tr>
+            </table>
+        </div>
+
+        <p class="invalid">Bill paid is less than expenses occured</p>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
