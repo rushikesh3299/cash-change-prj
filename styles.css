@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container{
+    max-width: 500px;
+    margin: auto;
+    padding: 1rem;
+    background-color:sandybrown;
+    text-align: center;
+}
+
+.title{
+    margin: .5rem;
+}
+
+.input-bill, .input-given, .output-title{
+    padding: .25rem;
+}
+
+button{
+    padding: .25rem;
+    width: 20%;
+    border-radius: .5rem;
+}
+
+#bill, #payment{
+    padding: .5rem;
+    margin: .5rem;
+    border-radius: 5px;
+
+}
+
+
+td, tr, th{
+    background-color: white;
+    padding: 0.25rem;
+    width: 50px;
+}
+
+.section2, .section3{
+    display: none;
+}
+
+.invalid{
+    padding: .5rem;
+    text-decoration: underline;
+    display: none;
+}
